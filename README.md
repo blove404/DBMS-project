@@ -1,4 +1,5 @@
 # DBMS-project
+Name: Blake Love
 Created a Database along side classmates Yahir Orozco, and Peyton Deboer, using fake data including fake Psychologists and fake Patients.
 Project Overview:
 •	Architected and deployed a robust relational database system utilizing MySQL and phpMyAdmin, enhancing data integrity and query efficiency.
