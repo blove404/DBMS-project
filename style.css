@@ -1,0 +1,137 @@
+*{
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#header-text{
+    text-align: center;
+
+}
+#team-members{
+    display: flex;
+    gap: 8px;
+}
+#lab-coat,#spacer{
+    width: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.team_members{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+h2{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(223, 246, 253)
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(223, 246, 253);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: lightblue;
+}
+
+.scroll-up-btn{
+    
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+    border-radius: 99%;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgb(223, 246, 253);
+}
+
+#form-box input{
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    margin-top: 5px;
+    background-color: rgb(223, 246, 253);
+    border-radius: 5px;
+    
+}
+
+#home{
+    width: 75px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(223, 246, 253);
+    border-radius: 5px;
+    border-width: 0.15px;
+}
+.queries{
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+}
+
+
+li{
+    box-sizing: border-box; 
+    margin: 6px;
+    width: calc(33.33% - 20px);
+}
+
+
+li a {
+    text-decoration: none; 
+    text-align: center;
+    color: #333; 
+    padding: 10px; 
+    transition: background-color 0.3s;
+    display: block;
+}
+
+
+li a:hover {
+    background-color: #f0f0f0;
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
